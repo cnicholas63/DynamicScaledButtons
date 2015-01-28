@@ -191,58 +191,7 @@ public class MainActivity extends ActionBarActivity {
 
 
     private void gridButtonClicked(int btn) { // Show Toast message
-//        Field field;
-//        int drawableId;
-//        Class resources = R.drawable.class;
-////////////////////////////////
-//        final Field[] fields = R.drawable.class.getDeclaredFields();
-///////////////////////////////////////
-//
-//
-//        int icon = 0;
-//        ImageButton btn = new ImageButton(getBaseContext());
-//
-//        String iconName="icon_question_over";
-//
-//        for(Field f : fields) {
-//            if (f.getName().equals(iconName)) {
-//                icon = getResources().getIdentifier(iconName, "drawable", this.getPackageName());
-//                break;
-//            }
-//        }
-//
-//        Drawable dbl = getResources().getDrawable(icon);
-//
-//        btn.setBackground(dbl);
-//
-////////////////////////////////////////
-//        R.drawable test;
-//
-//        Resources res = getResources();
-//
-//        //int resource = R.drawable.icon_question;
-//
-//        int newWidth = buttons[btn].getWidth();
-//        int newHeight = buttons[btn].getHeight();
-//
-//        Bitmap originalBitmap = BitmapFactory.decodeResource(res, R.drawable.icon_question_under);
-//        Bitmap scaledBitmap = Bitmap.createScaledBitmap(originalBitmap, newWidth, newHeight, true);
-//
-//
-//        Drawable drawable = res.getDrawable(resource);
 
-
-//        try {
-//
-//            field = resources.getField("icon_question_under.png");
-//            drawableId = field.getInt(null);
-//        }
-//        catch (Exception e) {
-//            Log.e("MyTag", "Failure to get drawable id.", e);
-//            return;
-//        }
-//
-//        System.out.println("drawableId =" + drawableId);
 
         // Scale image to button
 //        newWidth = buttons[btn].getWidth();
